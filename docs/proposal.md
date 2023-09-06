@@ -40,6 +40,13 @@ Describe the datasets you are using to answer your research questions.
   - Data type
   - Defition
   - Potential values (for categorical valuables, what are the categories?)
+    
+  | Column Name  | Data Type | Definition | Potential Values |
+  |--------------|-----------|------------|------------------|
+  | ExampleName1 | Type1     | Def1       | Value1           |
+  | ExampleName2 | Type2     | Def2       | Value2           |
+  | ...          | ...       | ...        | ...              |
+
 - Which variable/column will be your target/label in your ML model?
 - Which variables/columns may be selected as features/predictors for your ML models?
 
