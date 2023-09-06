@@ -5,13 +5,13 @@
   - Making progress continuously towards your goal.
   - Updating this document continuously along the way.
  
-## 1. Title and Author
+## 1. Predictive Analysis for Injury Diagnosis and Localization
 
-- Project Title
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- Author Name 
-- Link to the author's GitHub profile
-- Link to the author's LinkedIn progile
+- **Author Name** - Michael Whittington
+- <a href="https://github.com/Michael-Whittington"><img align="left" src="https://img.shields.io/badge/-GitHub-CD5C5C?logo=github&style=flat" alt="icon | LinkedIn"/></a> 
+  
+- <a href="https://www.linkedin.com/in/michael-whittington-6a099137/"><img align="left" src="https://img.shields.io/badge/-LinkedIn-1E90FF?logo=linkedin&style=flat" alt="icon | GitHub"/></a>  
 - Link to your PowerPoint presentation file
 - Link to your YouTube video 
     
