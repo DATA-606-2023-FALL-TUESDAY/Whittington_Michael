@@ -27,12 +27,15 @@ Provide the background information about the chosen topic.
 
 Describe the datasets you are using to answer your research questions.
 
-- Data sources
+- **Data sources** - This dataset is collected by a system called National Electronic Injury Surveillance System (NEISS), which is operated by the United States Consumer Product Safety Commission (CPSC).
+  - **Dataset Link:** https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
+  - **NEISS Information:** https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data  
 - Data size (MB, GB, etc.)
 - Data shape (# of rows and # columns)
 - Time period (for example, 2010 to 2020) if your data are time-bound
 - **What does each row represent?(a patient, a school, a crime, etc.)**
 - Data dictionary
+  - 
   - Columns name
   - Data type
   - Defition
