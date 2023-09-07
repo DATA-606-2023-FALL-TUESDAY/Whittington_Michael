@@ -1,13 +1,7 @@
-# The Template and Guideline for the Proposal Development and Final Report
-
-- This document serves as a guide for developing project proposal which will eventually become the proposal and final report.
-- You start with the end in mind and adopt an agile approach:
-  - Making progress continuously towards your goal.
-  - Updating this document continuously along the way.
+# Capstone Proposal
  
-## 1. Predictive Analysis for Injury Diagnosis and Localization
+## 1. Proposal Title: Predictive Analysis for Injury Diagnosis and Localization
 
-- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - **Author Name** - Michael Whittington
 - <a href="https://github.com/Michael-Whittington"><img align="left" src="https://img.shields.io/badge/-GitHub-CD5C5C?logo=github&style=flat" alt="icon | LinkedIn"/></a> 
   
@@ -35,8 +29,7 @@ Describe the datasets you are using to answer your research questions.
   - Rows = 323,343
   - Columns = 25 
 - **Time period** - 2022
-- **What does each row represent?(a patient, a school, a crime, etc.)**
-- Data dictionary
+- **Rows** - Patients
     
   | Column Name  | Data Type | Definition | Example Values |
   |--------------|-----------|------------|------------------|
