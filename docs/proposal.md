@@ -40,11 +40,11 @@ Describe the datasets you are using to answer your research questions.
     
   | Column Name  | Data Type | Definition | Potential Values |
   |--------------|-----------|------------|------------------|
-  | CPSC_Case_Number | int64     | Def1       | Value1           |
-  | Treatment_Date | datetime64     | Def2       | Value2           |
-  | Age          | int64       | ...        | ...              |
-  | Sex | int64     | Def2       | Value2           |
-  | Race | int64     | Def2       | Value2           |
+  | CPSC_Case_Number | int64     | CPSC case number       | 220100687, 220100691           |
+  | Treatment_Date | datetime64     | Date of Treatment       | 1/1/2022           |
+  | Age          | int64       | Age of Patient        | 1, 2, 3              |
+  | Sex | int64     | Sex of Patient       | 0, 1, 2, 3           |
+  | Race | int64     | Race of Patient       | 0, 1, 2, 3           |
   | Other_Race | object     | Def2       | Value2           |
   | Hispanic | int64     | Def2       | Value2           |
   | Body_Part | int64     | Def2       | Value2           |
