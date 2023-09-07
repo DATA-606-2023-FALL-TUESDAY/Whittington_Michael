@@ -41,30 +41,30 @@ Describe the datasets you are using to answer your research questions.
   | Column Name  | Data Type | Definition | Potential Values |
   |--------------|-----------|------------|------------------|
   | CPSC_Case_Number | int64     | Def1       | Value1           |
-  | ExampleName2 | datetime64     | Def2       | Value2           |
-  | ...          | int64       | ...        | ...              |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | object     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | object     | Def2       | Value2           |
-  | ExampleName2 | float64     | Def2       | Value2           |
-  | ExampleName2 | float64     | Def2       | Value2           |
-  | ExampleName2 | object     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | object     | Def2       | Value2           |
-  | ExampleName2 | object     | Def2       | Value2           |
-  | ExampleName2 | int64     | Def2       | Value2           |
-  | ExampleName2 | float64     | Def2       | Value2           |
+  | Treatment_Date | datetime64     | Def2       | Value2           |
+  | Age          | int64       | ...        | ...              |
+  | Sex | int64     | Def2       | Value2           |
+  | Race | int64     | Def2       | Value2           |
+  | Other_Race | object     | Def2       | Value2           |
+  | Hispanic | int64     | Def2       | Value2           |
+  | Body_Part | int64     | Def2       | Value2           |
+  | Diagnosis | int64     | Def2       | Value2           |
+  | Other_Diagnosis | object     | Def2       | Value2           |
+  | Body_Part_2 | float64     | Def2       | Value2           |
+  | Diagnosis_2 | float64     | Def2       | Value2           |
+  | Other_Diagnosis_2 | object     | Def2       | Value2           |
+  | Disposition | int64     | Def2       | Value2           |
+  | Location | int64     | Def2       | Value2           |
+  | Fire_Involvement | int64     | Def2       | Value2           |
+  | Product_1 | int64     | Def2       | Value2           |
+  | Product_2 | int64     | Def2       | Value2           |
+  | Product_3 | int64     | Def2       | Value2           |
+  | Alcohol | int64     | Def2       | Value2           |
+  | Drug | int64     | Def2       | Value2           |
+  | Narrative_1 | object     | Def2       | Value2           |
+  | Stratum | object     | Def2       | Value2           |
+  | PSU | int64     | Def2       | Value2           |
+  | Weight | float64     | Def2       | Value2           |
 
 
 - **Target Variable(s)** - Body_Part, Diagnosis
