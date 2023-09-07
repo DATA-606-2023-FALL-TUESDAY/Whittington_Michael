@@ -30,6 +30,7 @@ Describe the datasets you are using to answer your research questions.
   - Columns = 25 
 - **Time period** - 2022
 - **Rows** - Patients
+- **Data Dictionary**
     
   | Column Name  | Data Type | Definition | Example Values |
   |--------------|-----------|------------|------------------|
