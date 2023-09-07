@@ -31,23 +31,43 @@ Describe the datasets you are using to answer your research questions.
   - **Dataset Link:** https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
   - **NEISS Information:** https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data  
 - **Data size** - 46.7 MB
-- Data shape (# of rows and # columns)
+- **Data shape** -
+  - Rows = 323,343
+  - Columns = 25 
 - **Time period** - 2022
 - **What does each row represent?(a patient, a school, a crime, etc.)**
 - Data dictionary
-  - 
-  - Columns name
-  - Data type
-  - Defition
-  - Potential values (for categorical valuables, what are the categories?)
     
   | Column Name  | Data Type | Definition | Potential Values |
   |--------------|-----------|------------|------------------|
-  | ExampleName1 | Type1     | Def1       | Value1           |
-  | ExampleName2 | Type2     | Def2       | Value2           |
-  | ...          | ...       | ...        | ...              |
+  | CPSC_Case_Number | int64     | Def1       | Value1           |
+  | ExampleName2 | datetime64     | Def2       | Value2           |
+  | ...          | int64       | ...        | ...              |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | object     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | object     | Def2       | Value2           |
+  | ExampleName2 | float64     | Def2       | Value2           |
+  | ExampleName2 | float64     | Def2       | Value2           |
+  | ExampleName2 | object     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | object     | Def2       | Value2           |
+  | ExampleName2 | object     | Def2       | Value2           |
+  | ExampleName2 | int64     | Def2       | Value2           |
+  | ExampleName2 | float64     | Def2       | Value2           |
 
-- Which variable/column will be your target/label in your ML model?
+
+- **Target Variable(s)** - Body_Part, Diagnosis
 - Which variables/columns may be selected as features/predictors for your ML models?
 
 ## 4. Exploratory Data Analysis (EDA)
