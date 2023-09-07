@@ -38,33 +38,33 @@ Describe the datasets you are using to answer your research questions.
 - **What does each row represent?(a patient, a school, a crime, etc.)**
 - Data dictionary
     
-  | Column Name  | Data Type | Definition | Potential Values |
+  | Column Name  | Data Type | Definition | Example Values |
   |--------------|-----------|------------|------------------|
-  | CPSC_Case_Number | int64     | CPSC case number       | 220100687, 220100691           |
-  | Treatment_Date | datetime64     | Date of Treatment       | 1/1/2022           |
-  | Age          | int64       | Age of Patient        | 1, 2, 3              |
+  | CPSC_Case_Number | int64     | CPSC case number       | 220100687, 220100691, etc.           |
+  | Treatment_Date | datetime64     | Date of Treatment       | 1/1/2022, etc.           |
+  | Age          | int64       | Age of Patient        | 1, 2, 3, etc.              |
   | Sex | int64     | Sex of Patient       | 0, 1, 2, 3           |
-  | Race | int64     | Race of Patient       | 0, 1, 2, 3           |
-  | Other_Race | object     | Def2       | Value2           |
-  | Hispanic | int64     | Def2       | Value2           |
-  | Body_Part | int64     | Def2       | Value2           |
-  | Diagnosis | int64     | Def2       | Value2           |
-  | Other_Diagnosis | object     | Def2       | Value2           |
-  | Body_Part_2 | float64     | Def2       | Value2           |
-  | Diagnosis_2 | float64     | Def2       | Value2           |
-  | Other_Diagnosis_2 | object     | Def2       | Value2           |
-  | Disposition | int64     | Def2       | Value2           |
-  | Location | int64     | Def2       | Value2           |
-  | Fire_Involvement | int64     | Def2       | Value2           |
-  | Product_1 | int64     | Def2       | Value2           |
-  | Product_2 | int64     | Def2       | Value2           |
-  | Product_3 | int64     | Def2       | Value2           |
-  | Alcohol | int64     | Def2       | Value2           |
-  | Drug | int64     | Def2       | Value2           |
-  | Narrative_1 | object     | Def2       | Value2           |
-  | Stratum | object     | Def2       | Value2           |
-  | PSU | int64     | Def2       | Value2           |
-  | Weight | float64     | Def2       | Value2           |
+  | Race | int64     | Race of Patient       | 0, 1, 2, 3, etc.           |
+  | Other_Race | object     | Description of Other Race (Used with Race=3)       | WHITE, AFRICAN, LATINO, etc.            |
+  | Hispanic | int64     | Hispanic, Latino/Latina, or of Spanish Origin       | 0, 1, 2          |
+  | Body_Part | int64     | Injured Body Part       | 0, 30, 31, 32, etc.           |
+  | Diagnosis | int64     | Injury Diagnosis       | 41, 42, 46, etc.           |
+  | Other_Diagnosis | object     | Description of Other Diagnosis (Used with Diag=71)      | NECK PAIN, ELBOW PAIN, CARDIAC ARREST, etc.           |
+  | Body_Part_2 | float64     | Injured Body Part 2       | 0, 30, 31, 32, etc.           |
+  | Diagnosis_2 | float64     | Injury Diagnosis 2       | 41, 42, 46, etc.           |
+  | Other_Diagnosis_2 | object     | Description of Other Diagnosis 2 (Used with Diag2=71)  - available from 2019       | NECK PAIN, ELBOW PAIN, CARDIAC ARREST, etc.           |
+  | Disposition | int64     | Disposition       | 1, 2, 3, etc.           |
+  | Location | int64     | Incident Location       | 1, 2, 3, etc.           |
+  | Fire_Involvement | int64     | Fire Involvement/Fire Department Attended       | 1, 2, 3, etc.           |
+  | Product_1 | int64     | Product Code (See NEISS Coding Manual for Details)       | 102, 106, 110, etc.           |
+  | Product_2 | int64     | Product Code 2 (See NEISS Coding Manual for Details)       | 102, 106, 110, etc.           |
+  | Product_3 | int64     | Product Code 3 (See NEISS Coding Manual for Details)       | 102, 106, 110, etc.           |
+  | Alcohol | int64     | Consumed Alcohol Prior to or During the Incident       | 0, 1           |
+  | Drug | int64     | Use of Drugs or Medication Contributed to the Incident or the Severity of the Injury       | 0, 1           |
+  | Narrative_1 | object     | Description of Injury Event        | ex. 60 YOF C/O LOWER BACK PAIN AFTER GETTING UP OFF COUCH DX STRAINED LOWER BACK           |
+  | Stratum | object     | Design Variable-Stratum       | S, V, M, etc.           |
+  | PSU | int64     | Design Variable-Primary Sampling Unit (PSU)       | 2, 3, 4, etc.           |
+  | Weight | float64     | Statistical Weight for National Estimates       | 5.8342, 77.9827, etc.           |
 
 
 - **Target Variable(s)** - Body_Part, Diagnosis
