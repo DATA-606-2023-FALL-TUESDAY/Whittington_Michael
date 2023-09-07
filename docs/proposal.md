@@ -11,11 +11,15 @@
     
 ## 2. Background
 
-Provide the background information about the chosen topic. 
+In the realm of public health and safety, the ability to predict and subsequently prevent injuries is paramount. By understanding patterns in consumer product-related injuries, industries can make informed decisions to refine their products, thereby reducing potential risks. Moreover, this predictive analysis can serve as a vital tool for healthcare providers. If medical professionals can swiftly and accurately diagnose injuries, they can expedite treatment plans, leading to potentially shorter recovery times and better patient outcomes. This project not only aids in enhancing the safety measures of consumer products but also paves the way for advanced medical diagnostics using data-driven methodologies. It serves a dual purpose of fostering product safety and optimizing medical care, thus having broad societal implications.
 
-- What is it about? 
-- Why does it matter? 
-- What are your research questions?
+Leveraging the United States Consumer Product Safety Commission's injury dataset, collected by NEISS, this project aims to accurately predict both the diagnosis of a patients injury and the specific body part that was affected. Through the use of machine learning models and data analysis techniques, the goal is to discern patterns and correlations that can lead to reliable predictions concerning the nature and location of injuries based on the given parameters in the dataset.
+
+**Research Questions:**
+- What specific attributes within the NEISS data have the highest correlation with the type of injury diagnosis?
+- Are there discernible patterns in the data that indicate a higher likelihood of injuries to specific body parts based on certain factors or circumstances?
+- How do various consumer products correlate with the type and location of injuries? Are certain products more prone to cause injuries to specific body parts?
+- How accurate are the machine learning models in predicting injury diagnosis and location based on the NEISS data?
 
 ## 3. Data 
 
