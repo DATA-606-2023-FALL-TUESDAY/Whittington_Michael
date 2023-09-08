@@ -7,8 +7,8 @@
 - <a href="https://github.com/Michael-Whittington"><img align="left" src="https://img.shields.io/badge/-GitHub-CD5C5C?logo=github&style=flat" alt="icon | LinkedIn"/></a> 
   
 - <a href="https://www.linkedin.com/in/michael-whittington-6a099137/"><img align="left" src="https://img.shields.io/badge/-LinkedIn-1E90FF?logo=linkedin&style=flat" alt="icon | GitHub"/></a>  
-- Link to your PowerPoint presentation file
-- Link to your YouTube video 
+- **PowerPoint presentation file** - In Progress
+- **YouTube video** - In Progress 
     
 ## 2. Background
 
