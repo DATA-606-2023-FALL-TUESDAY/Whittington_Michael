@@ -3,6 +3,7 @@
 ## 1. Proposal Title: Predictive Analysis for Injury Diagnosis and Localization
 
 - **Author Name** - Michael Whittington
+- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - <a href="https://github.com/Michael-Whittington"><img align="left" src="https://img.shields.io/badge/-GitHub-CD5C5C?logo=github&style=flat" alt="icon | LinkedIn"/></a> 
   
 - <a href="https://www.linkedin.com/in/michael-whittington-6a099137/"><img align="left" src="https://img.shields.io/badge/-LinkedIn-1E90FF?logo=linkedin&style=flat" alt="icon | GitHub"/></a>  
