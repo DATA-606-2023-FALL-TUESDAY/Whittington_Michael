@@ -89,19 +89,37 @@ Describe the datasets you are using to answer your research questions.
 ## 5. Model Training 
 
 - What models you will be using for predictive analytics?
+  - Random Forest
+  - XGBoost Classifier
+  - Naïve Bayes (may decide not to use based on early results)
+  - Support Vector Machines (SVM)
+  - K-means
+  - K-Nearest Neighbors (KNN)
 - How will you train the models?
-  - Train vs test split (80/20, 70/30, etc.)
-  - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
-  - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
+  - The train vs test split of 80/20 will be used for the models
+  - Python packages used for this project include:
+     - scikit-learn
+     - xgboost
+  - The development environments used include:
+     - Personal laptop
+     - Google CoLab
 - How will you measure and compare the performance of the models?
+  - Accuracy
+  - Precision
+  - Recall
+  - f1-score
 
 ## 6. Application of the Trained Models
 
 Develop a web app for people to interact with your trained models. Potential tools for web app development:
+Streamlit will be used to create an application for exploratory data analysis and to create an application that will allow users to interact with the models. 
 
-- **Streamlit** (recommended for its simplicity and ease to learn)
-- Dash
-- Flask
+The model interaction application will feature the following functionality:
+  - Users will have a set of option to select from (sex, weight, race, age, and product)
+  - Once user selects their options above, they will be given an output of the body parts most likely injured and diagnosis.
+    
+The exploratory data analysis application will feature the following functionality:
+
 
 ## 7. Conclusion
 
