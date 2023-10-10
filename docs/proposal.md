@@ -112,6 +112,7 @@ Describe the datasets you are using to answer your research questions.
 ## 6. Application of the Trained Models
 
 Develop a web app for people to interact with your trained models. Potential tools for web app development:
+
 Streamlit will be used to create an application for exploratory data analysis and to create an application that will allow users to interact with the models. 
 
 The model interaction application will feature the following functionality:
