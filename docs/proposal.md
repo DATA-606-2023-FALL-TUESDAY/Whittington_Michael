@@ -119,7 +119,15 @@ The model interaction application will feature the following functionality:
   - Once user selects their options above, they will be given an output of the body parts most likely injured and diagnosis.
     
 The exploratory data analysis application will feature the following functionality:
-
+  - Users will be able to upload a dataset and see it's dimensions
+  - View N/A Values
+  - Gather descriptive analytics (mean, median, etc.)
+  - Visualize a histogram for a target column
+  - Show the distribution of numerical columns
+  - Show count plots of categorical columns
+  - Visualize box plots for numerical columns
+  - View outliers in the dataset
+  - Visualize how a target variable varies with categorical columns 
 
 ## 7. Conclusion
 
