@@ -87,7 +87,7 @@ Leveraging the pandas library, the project starts the exploratory data analysis 
 
 Pandas Profiling was also used to explore the neiss dataset. Pandas Profiling is a powerful tool that provides an overview of the dataset with detailed insights on each column, correlations, missing values, and more. This is all packaged into an interactive HTML report. See below for an image of the Pandas Profiling output for the neiss dataset:
 
-**Insert Pandas Profiling Image**
+![Pandas Profiling Overview Report](https://github.com/Michael-Whittington/UMBC-DATA606-FALL2023-TUESDAY/raw/main/Pandas-Profiling-Overview-Report.png)
 
 **Streamlit EDA Application & Plotly Visualizations**
 
