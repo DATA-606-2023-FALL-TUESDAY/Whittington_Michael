@@ -67,7 +67,7 @@ Describe the datasets you are using to answer your research questions.
 
 
 - **Target Variable(s)** - Body_Part, Diagnosis
-- Which variables/columns may be selected as features/predictors for your ML models?
+- **Potential Model Features/Predictors** - Product_1, Body_Part (for Diagnosis Prediction) and Diagnosis (for Body_Part Prediction)
 
 ## 4. Exploratory Data Analysis (EDA)
 
