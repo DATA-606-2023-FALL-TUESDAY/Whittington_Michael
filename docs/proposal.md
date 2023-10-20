@@ -71,6 +71,16 @@ Describe the datasets you are using to answer your research questions.
 
 ## 4. Exploratory Data Analysis (EDA)
 
+In an effort to fully understand the dataset and prepare for model training, Exploratory Data Analysis (EDA) was conducted. **Add in quote about the importance of EDA**. EDA serves as a crucial bridge between data collection and the predictive modeling process. Through this analysis, we are able to gain insights into data variability and relationships, enabling informed decisions on methods and model choices. This project takes a multifaceted approach to EDA, including the use of Plotly Visualizations, Pandas Profiling, Pandas, and an EDA Application built using Streamlit.
+
+**Preliminary Exploration with Pandas**
+
+**Plotly Visualizations**
+
+**Pandas Profiling**
+
+**Streamlit EDA Application**
+
 - Perform data exploration using Jupyter Notebook
 - You would focus on the target variable and the selected features and drop all other columns.
 - produce summary statistics of key variables
