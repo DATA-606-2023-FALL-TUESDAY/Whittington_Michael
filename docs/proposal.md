@@ -85,28 +85,38 @@ Leveraging the pandas library, the project starts the exploratory data analysis 
 
 **Pandas Profiling**
 
-Pandas Profiling was also used to explore the neiss dataset. Pandas Profiling is a powerful tool that provides an overview of the dataset with detailed insights on each column, correlations, missing values, and more. This is all packaged into an interactive HTML report. See below for an image of the Pandas Profiling output for the neiss dataset:
+Pandas Profiling was also used to explore the neiss dataset. Pandas Profiling is a powerful tool that provides an overview of the dataset with detailed insights on each column, correlations, missing values, and more. This is all packaged into an interactive HTML report. See below for images of the Pandas Profiling output for the neiss dataset:
 
-![Pandas Profiling Overview Report](https://github.com/Michael-Whittington/UMBC-DATA606-FALL2023-TUESDAY/raw/main/Pandas-Profiling-Overview-Report.png)
+**NEISS Pandas Profiling Overview Report**
+![Pandas-Profiling-Overview-Report](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/fc04a4ef-0c0c-43aa-876e-ca987d222753)
+
+**Pandas Profiling Target Variables Report**
+
+![Pandas-Profiling-Target-Variables](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/19bcc3a6-7735-4190-9156-42fffc691a90)
+
 
 **Streamlit EDA Application & Plotly Visualizations**
 
+In an effort to better understand the dataset and provide an effective way for future data exploration, I created a streamlit application. This application is easy to use and provides the following functionality:
+- Ability for the user to upload a dataset.
+- Displays basic information about the dataset.
+- Show information about missing values in the dataset.
+- Provides statistical summaries of the dataset.
+- Allows selection of a column and view its histogram.
+- Shows distributions of numerical columns.
+- Count plots of categorical columns.
+- Box plots for numerical columns.
+- Shows information about outliers in the dataset.
+- Allows users to see how the target variable varies with categorical columns.
+
+![Streamlit-App-Overview](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/55cea973-b76c-4c82-868a-05182b4ca0b1)
+
+![Streamlit-App-Descriptive-Analysis](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/a3960031-6ff8-46cf-9130-807d0c9c7a2b)
+
+![Streamlit-App-BoxPlots](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/58a611ca-7870-4045-9ae6-72cbe19d0358)
 
 
-- Perform data exploration using Jupyter Notebook
-- You would focus on the target variable and the selected features and drop all other columns.
-- produce summary statistics of key variables
-- Create visualizations (I recommend using **Plotly Express**)
-- Find out if the data require cleansing:
-  - Missing values?
-  - Duplicate rows? 
-- Find out if the data require splitting, merging, pivoting, melting, etc.
-- Find out if you need to bring in other data sources to augment your data.
-  - For example, population, socioeconomic data from Census may be helpful.
-- For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
-- Make sure the resulting dataset need to be "tidy":
-  - each row represent one observation (ideally one unique entity/subject).
-  - each columm represents one unique property of that entity. 
+
 
 ## 5. Model Training 
 
