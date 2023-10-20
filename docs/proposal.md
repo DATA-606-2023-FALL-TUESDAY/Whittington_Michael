@@ -71,15 +71,23 @@ Describe the datasets you are using to answer your research questions.
 
 ## 4. Exploratory Data Analysis (EDA)
 
-In an effort to fully understand the dataset and prepare for model training, Exploratory Data Analysis (EDA) was conducted. **Add in quote about the importance of EDA**. EDA serves as a crucial bridge between data collection and the predictive modeling process. Through this analysis, we are able to gain insights into data variability and relationships, enabling informed decisions on methods and model choices. This project takes a multifaceted approach to EDA, including the use of Plotly Visualizations, Pandas Profiling, Pandas, and an EDA Application built using Streamlit.
+In an effort to fully understand the dataset and prepare for model training, Exploratory Data Analysis (EDA) was conducted. **Add in quote about the importance of EDA**. EDA serves as a crucial bridge between data collection and the predictive modeling process. Through this analysis, the project is able to gain insights into data variability and relationships, enabling informed decisions on methods and model choices. This project takes a multifaceted approach to EDA, including the use of Plotly Visualizations, Pandas Profiling, Pandas, and an EDA Application built using Streamlit.
 
 **Preliminary Exploration with Pandas**
 
-**Plotly Visualizations**
+Leveraging the pandas library, the project starts the exploratory data analysis by observing an overview of the dataset, summarizing key statistics across all columns, checking for missing values, and determining the unique values of the target variables.
+- `neiss.shape` - obtaining the shape of the dataset
+- `neiss.head()` - previewing the intial rows of the dataset
+- `neiss.dtypes` - determining the data types for each column in the dataset
+- `neiss.describe(include='all')` - providing key summary statistics across all columns
+- `neiss.isnull().sum()` - checking for missing values by column in the dataset
+- `len(pd.unique(neiss['Diagnosis']))` and `len(pd.unique(neiss['Body_Part']))` - finding the unique values for the project target variables
 
 **Pandas Profiling**
 
-**Streamlit EDA Application**
+Pandas Profiling 
+
+**Streamlit EDA Application & Plotly Visualizations**
 
 - Perform data exploration using Jupyter Notebook
 - You would focus on the target variable and the selected features and drop all other columns.
