@@ -73,7 +73,7 @@ Describe the datasets you are using to answer your research questions.
 
 In an effort to fully understand the dataset and prepare for model training, Exploratory Data Analysis (EDA) was conducted. **Add in quote about the importance of EDA**. EDA serves as a crucial bridge between data collection and the predictive modeling process. Through this analysis, the project is able to gain insights into data variability and relationships, enabling informed decisions on methods and model choices. This project takes a multifaceted approach to EDA, including the use of Plotly Visualizations, Pandas Profiling, Pandas, and an EDA Application built using Streamlit.
 
-**Preliminary Exploration with Pandas**
+**[Preliminary Exploration with Pandas](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/blob/main/src/neiss_data_exploration.ipynb)**
 
 Leveraging the pandas library, the project starts the exploratory data analysis by observing an overview of the dataset, summarizing key statistics across all columns, checking for missing values, and determining the unique values of the target variables.
 - `neiss.shape` - obtaining the shape of the dataset
@@ -83,9 +83,11 @@ Leveraging the pandas library, the project starts the exploratory data analysis 
 - `neiss.isnull().sum()` - checking for missing values by column in the dataset
 - `len(pd.unique(neiss['Diagnosis']))` and `len(pd.unique(neiss['Body_Part']))` - finding the unique values for the project target variables
 
+Additional details on the preliminary data exploration can be found in the [notebook](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/blob/main/src/neiss_data_exploration.ipynb).
+
 **Pandas Profiling**
 
-Pandas Profiling was also used to explore the neiss dataset. Pandas Profiling is a powerful tool that provides an overview of the dataset with detailed insights on each column, correlations, missing values, and more. This is all packaged into an interactive HTML report. See below for images of the Pandas Profiling output for the neiss dataset:
+Pandas Profiling was also used to explore the neiss dataset. Pandas Profiling is a powerful tool that provides an overview of the dataset with detailed insights on each column, correlations, missing values, and more. This is all packaged into an interactive HTML report. The code for developing the Pandas Profiling report can be found [here](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/blob/main/src/Pandas_Profiling.ipynb). See below for images of the Pandas Profiling output for the neiss dataset:
 
 **NEISS Pandas Profiling Overview Report**
 ![Pandas-Profiling-Overview-Report](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/fc04a4ef-0c0c-43aa-876e-ca987d222753)
@@ -108,6 +110,8 @@ In an effort to better understand the dataset and provide an effective way for f
 - Box plots for numerical columns.
 - Shows information about outliers in the dataset.
 - Allows users to see how the target variable varies with categorical columns.
+
+The code for developing the streamlit application can be found [here](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/blob/main/src/app2.py). Additionally, some of the functionality can be seen in the images below:
 
 **Project Application Overview**
 
