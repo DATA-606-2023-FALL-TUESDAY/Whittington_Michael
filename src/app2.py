@@ -16,7 +16,7 @@ st.write('<p style="font-size:130%">Import Dataset</p>', unsafe_allow_html=True)
 file_format = st.radio('Select file format:', ('csv', 'excel'), key='file_format')
 dataset = st.file_uploader(label = '')
 
-use_defo = st.checkbox('Use example Dataset')
+use_defo = st.checkbox('Use 2022 Neiss Dataset')
 if use_defo:
     dataset = 'neiss_2022.csv'
 
@@ -34,32 +34,32 @@ if dataset:
     st.dataframe(df)
 
 
-    all_vizuals = ['Info', 'NA Info', 'Descriptive Analysis', 'Target Analysis', 
+    all_visuals = ['Info', 'N/A Info', 'Descriptive Analysis', 'Target Analysis', 
                    'Distribution of Numerical Columns', 'Count Plots of Categorical Columns', 
                    'Box Plots', 'Outlier Analysis', 'Variance of Target with Categorical Columns']
     functions.sidebar_space(3)         
-    vizuals = st.sidebar.multiselect("Choose which visualizations you want to see 👇", all_vizuals)
+    visuals = st.sidebar.multiselect("Choose which visualizations you want to see:", all_visuals)
 
-    if 'Info' in vizuals:
+    if 'Info' in visuals:
         st.subheader('Info:')
         c1, c2, c3 = st.columns([1, 2, 1])
         c2.dataframe(functions.df_info(df))
 
-    if 'NA Info' in vizuals:
-        st.subheader('NA Value Information:')
+    if 'N/A Info' in visuals:
+        st.subheader('N/A Value Information:')
         if df.isnull().sum().sum() == 0:
-            st.write('There is not any NA value in your dataset.')
+            st.write('There are no N/A values in your dataset.')
         else:
             c1, c2, c3 = st.columns([0.5, 2, 0.5])
             c2.dataframe(functions.df_isnull(df), width=1500)
             functions.space(2)
             
 
-    if 'Descriptive Analysis' in vizuals:
+    if 'Descriptive Analysis' in visuals:
         st.subheader('Descriptive Analysis:')
         st.dataframe(df.describe())
         
-    if 'Target Analysis' in vizuals:
+    if 'Target Analysis' in visuals:
         st.subheader("Select target column:")    
         target_column = st.selectbox("", df.columns, index = len(df.columns) - 1)
     
@@ -72,7 +72,7 @@ if dataset:
     num_columns = df.select_dtypes(exclude = 'object').columns
     cat_columns = df.select_dtypes(include = 'object').columns
 
-    if 'Distribution of Numerical Columns' in vizuals:
+    if 'Distribution of Numerical Columns' in visuals:
 
         if len(num_columns) == 0:
             st.write('There is no numerical columns in the data.')
@@ -91,7 +91,7 @@ if dataset:
                     j.plotly_chart(fig, use_container_width = True)
                     i += 1
 
-    if 'Count Plots of Categorical Columns' in vizuals:
+    if 'Count Plots of Categorical Columns' in visuals:
 
         if len(cat_columns) == 0:
             st.write('There is no categorical columns in the data.')
@@ -110,7 +110,7 @@ if dataset:
                     j.plotly_chart(fig)
                     i += 1
 
-    if 'Box Plots' in vizuals:
+    if 'Box Plots' in visuals:
         if len(num_columns) == 0:
             st.write('There is no numerical columns in the data.')
         else:
@@ -128,12 +128,12 @@ if dataset:
                     j.plotly_chart(fig, use_container_width = True)
                     i += 1
 
-    if 'Outlier Analysis' in vizuals:
+    if 'Outlier Analysis' in visuals:
         st.subheader('Outlier Analysis')
         c1, c2, c3 = st.columns([1, 2, 1])
         c2.dataframe(functions.number_of_outliers(df))
 
-    if 'Variance of Target with Categorical Columns' in vizuals:
+    if 'Variance of Target with Categorical Columns' in visuals:
         
         
         df_1 = df.dropna()
@@ -156,7 +156,7 @@ if dataset:
             model_type = st.radio('Select Problem Type:', ('Regression', 'Classification'), key = 'model_type')
             selected_cat_cols = functions.sidebar_multiselect_container('Choose columns for Category Colored plots:', normal_cardi_columns, 'Category')
             
-            if 'Target Analysis' not in vizuals:   
+            if 'Target Analysis' not in visuals:   
                 target_column = st.selectbox("Select target column:", df.columns, index = len(df.columns) - 1)
             
             i = 0
