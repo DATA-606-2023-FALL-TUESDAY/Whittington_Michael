@@ -109,12 +109,22 @@ In an effort to better understand the dataset and provide an effective way for f
 - Shows information about outliers in the dataset.
 - Allows users to see how the target variable varies with categorical columns.
 
+**Project Application Overview**
+
 ![Streamlit-App-Overview](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/55cea973-b76c-4c82-868a-05182b4ca0b1)
+
+**Dataset Descriptive Analysis**
 
 ![Streamlit-App-Descriptive-Analysis](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/a3960031-6ff8-46cf-9130-807d0c9c7a2b)
 
+**Box Plots of Target Variables**
+
 ![Streamlit-App-BoxPlots](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/58a611ca-7870-4045-9ae6-72cbe19d0358)
 
+Using plotly, I created a correlation matrix to understand the relationship between the target variables and also the potential model features/predictors. This visualization enabled a clearer view of how each feture correlates with one another, providing insights into potential multicollinearity issues and helping to identify the most influential variables for model prediction. See below for an image of the Correlation Matrix:
+
+**NEISS Plotly Correlation Matrix**
+![Plotly-Correlation-Matrix](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/c65ba6e7-aa32-4dd4-8ede-304920732832)
 
 
 
