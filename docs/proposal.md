@@ -124,6 +124,7 @@ In an effort to better understand the dataset and provide an effective way for f
 Using plotly, I created a correlation matrix to understand the relationship between the target variables and also the potential model features/predictors. This visualization enabled a clearer view of how each feture correlates with one another, providing insights into potential multicollinearity issues and helping to identify the most influential variables for model prediction. See below for an image of the Correlation Matrix:
 
 **NEISS Plotly Correlation Matrix**
+
 ![Plotly-Correlation-Matrix](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/c65ba6e7-aa32-4dd4-8ede-304920732832)
 
 
