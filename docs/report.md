@@ -25,15 +25,13 @@ Leveraging the United States Consumer Product Safety Commission's injury dataset
 
 ## 3. Data 
 
-The dataset used in this report is collected by a system called National Electronic Injury Surveillance System (NEISS), which is operated by the United States Consumer Product Safety Commission (CPSC).
+The dataset used in this report is collected by a system called National Electronic Injury Surveillance System (NEISS), which is operated by the United States Consumer Product Safety Commission (CPSC). Each row in the dataset represents a patient and data collected during their emergency room visit. While NEISS has collected data across many years, this report uses 2022 patient data from participating hospitals. Below is more information on the dataset and its elements:
   - **Dataset Link:** https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
   - **NEISS Information:** https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data  
 - **Data size** - 46.7 MB
 - **Data shape** -
   - Rows = 323,343
   - Columns = 25 
-- **Time period** - 2022
-- **Rows** - Patients
 - **Data Dictionary**
     
   | Column Name  | Data Type | Definition | Example Values |
