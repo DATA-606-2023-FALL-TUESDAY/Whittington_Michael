@@ -151,7 +151,7 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - Precision
   - Recall
   - f1-score
- - Model Improvement Methods (NEED TO EXPAND ON THESE):
+- Model Improvement Methods (NEED TO EXPAND ON THESE):
   - Hyperparameter Tuning
   - Feature Importance
 
