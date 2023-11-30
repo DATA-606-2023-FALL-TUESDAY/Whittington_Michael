@@ -130,14 +130,13 @@ Using plotly, I created a correlation matrix to understand the relationship betw
 
 
 
-## 5. Model Training 
+## 5. Model Training (Need more information added to this section)
 
 - What models you will be using for predictive analytics?
   - Random Forest
   - XGBoost Classifier
-  - Naïve Bayes (may decide not to use based on early results)
-  - Support Vector Machines (SVM)
-  - K-means
+  - LightGBM
+  - CatBoost
   - K-Nearest Neighbors (KNN)
 - How will you train the models?
   - The train vs test split of 80/20 will be used for the models
@@ -147,22 +146,25 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - The development environments used include:
      - Personal laptop
      - Google CoLab
-- How will you measure and compare the performance of the models?
+- How will you measure and compare the performance of the models (NEED TO EXPAND ON THESE)?
   - Accuracy
   - Precision
   - Recall
   - f1-score
+ - Model Improvement Methods (NEED TO EXPAND ON THESE):
+  - Hyperparameter Tuning
+  - Feature Importance
 
 ## 6. Application of the Trained Models
 
-Develop a web app for people to interact with your trained models. Potential tools for web app development:
+Streamlit will be used to create an application for exploratory data analysis and to create an application that will allow users to interact with the best performing model. 
 
-Streamlit will be used to create an application for exploratory data analysis and to create an application that will allow users to interact with the models. 
-
+**Body Part and Diagnosis Prediction Application (NEED MORE INFORMATION AND AN IMAGE)**
 The model interaction application will feature the following functionality:
   - Users will have a set of option to select from (sex, weight, race, age, and product)
   - Once user selects their options above, they will be given an output of the body parts most likely injured and diagnosis.
-    
+
+**Exploratory Data Analysis Application (NEED MORE INFORMATION AND AN IMAGE)**    
 The exploratory data analysis application will feature the following functionality:
   - Users will be able to upload a dataset and see it's dimensions
   - View N/A Values
@@ -175,8 +177,15 @@ The exploratory data analysis application will feature the following functionali
   - Visualize how a target variable varies with categorical columns 
 
 ## 7. Conclusion
+(SUMMARIZE THE BELOW AND ADD THE APPLICATION OF THE WORK TO THE REAL WORLD)
+Diagnosis prediction results outperformed body part predictions
+Limited model improvement from hyperparameter tuning and feature importance
+Dataset may lack a clear pattern or distinction between classes
 
-- Summarize your work and its potetial application
-- Point out the limitations of your work
-- Lessons learned 
-- Talk about future research direction
+
+- **Lessons learned & Limitations**
+  - More compute power
+  - You don’t always get the results you expect!
+- **Future Research Direction**
+  - Add in more data to determine whether the data is the issue
+  - Additional evaluation metrics
