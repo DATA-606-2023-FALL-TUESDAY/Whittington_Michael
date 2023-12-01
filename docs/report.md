@@ -143,6 +143,8 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - Python packages used for this project include:
      - scikit-learn
      - xgboost
+     - catboost
+     - lightgbm
   - The development environments used include:
      - Personal laptop
      - Google CoLab
