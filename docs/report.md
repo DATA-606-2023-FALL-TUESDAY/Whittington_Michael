@@ -179,15 +179,10 @@ The exploratory data analysis application will feature the following functionali
   - Visualize how a target variable varies with categorical columns 
 
 ## 7. Conclusion
-(SUMMARIZE THE BELOW AND ADD THE APPLICATION OF THE WORK TO THE REAL WORLD)
-Diagnosis prediction results outperformed body part predictions
-Limited model improvement from hyperparameter tuning and feature importance
-Dataset may lack a clear pattern or distinction between classes
+
+This project revealed some intruiging insights and challenges when dealing with the NEISS injury dataset. Notably, each model was more effective when predicting the diagnosis than predicting the body part affected. Among the machine learning models tested, XGBoost demonstrated a slight edge over its counterparts, including Random Forest, LightGBM, CatBoost, and KNN. Model optimization proved to also be complicated to achieve. Despite attempts at hyperparameter tuning and focusing on feature importance, the improvements to model performance were limited. This outcome suggests that the dataset likely lacks a clear pattern or distinction between classes. This project serves as a testament to the unpredictable nature of data science, where results may not always align with initial expectations, highlighting the importance of flexibility and adaptability in your approach.
 
 
-- **Lessons learned & Limitations**
-  - More compute power
-  - You don’t always get the results you expect!
-- **Future Research Direction**
+## 8. Future Research Direction
   - Add in more data to determine whether the data is the issue
   - Additional evaluation metrics
