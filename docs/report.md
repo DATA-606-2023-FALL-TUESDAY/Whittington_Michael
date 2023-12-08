@@ -157,7 +157,12 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - Hyperparameter Tuning
   - Feature Importance
 
-## 6. Application of the Trained Models
+## 6. Model Results
+
+![Model_Results](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/884b0d5a-1037-41c4-8dc8-0e606aca2691)
+
+
+## 7. Application of the Trained Models
 
 Streamlit will be used to create an application for exploratory data analysis and to create an application that will allow users to interact with the best performing model. 
 
@@ -166,22 +171,13 @@ The model interaction application will feature the following functionality:
   - Users will have a set of option to select from (sex, weight, race, age, and product)
   - Once user selects their options above, they will be given an output of the body parts most likely injured and diagnosis.
 
-**Exploratory Data Analysis Application (NEED MORE INFORMATION AND AN IMAGE)**    
-The exploratory data analysis application will feature the following functionality:
-  - Users will be able to upload a dataset and see it's dimensions
-  - View N/A Values
-  - Gather descriptive analytics (mean, median, etc.)
-  - Visualize a histogram for a target column
-  - Show the distribution of numerical columns
-  - Show count plots of categorical columns
-  - Visualize box plots for numerical columns
-  - View outliers in the dataset
-  - Visualize how a target variable varies with categorical columns 
 
-## 7. Conclusion
+## 8. Conclusion
 
 This project revealed some intruiging insights and challenges when dealing with the NEISS injury dataset. Notably, each model was more effective when predicting the diagnosis than predicting the body part affected. Among the machine learning models tested, XGBoost demonstrated a slight edge over its counterparts, including Random Forest, LightGBM, CatBoost, and KNN. Model optimization proved to also be complicated to achieve. Despite attempts at hyperparameter tuning and focusing on feature importance, the improvements to model performance were limited. This outcome suggests that the dataset likely lacks a clear pattern or distinction between classes. This project serves as a testament to the unpredictable nature of data science, where results may not always align with initial expectations, highlighting the importance of flexibility and adaptability in your approach.
 
 
-## 8. Future Research Direction
+## 9. Future Research Direction
 While quite a bit was accomplished during this project, there are several avenues for enhancement and deeper exploration. Augmenting the dataset would be one of the primary focuses towards enhancement. Incorporating additional data could provide more clarity on whether the current limitations are data-related, potentially revealing more distinct patterns, and improving model accuracy. Additionally, expanding the scope of evaluation metrics beyond the traditional accuracy, precision, recall, and F1-score could offer a more nuanced understanding of model performance, especially in areas where conventional metrics might not capture the model's true predictive power. Lastly, addressing computational constraints is pivotal. The current dataset's size posed challenges, limiting the extent of hyperparameter tuning and analysis. With more powerful computational resources, a more thorough exploration of hyperparameters could be undertaken. Furthermore, it would be essential to increase computing power if the project decides to expand the dataset. This would ensure that the project can effectively analyze a larger amount of data, which could unlock new insights and enhance predictive accuracies.
+
+## 10. Project Sources
