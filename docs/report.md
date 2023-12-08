@@ -157,7 +157,7 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - Hyperparameter Tuning
   - Feature Importance
 
-## 6. Model Results
+## 6. Model Results - Accuracy
 
 ![Model_Results](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/884b0d5a-1037-41c4-8dc8-0e606aca2691)
 
