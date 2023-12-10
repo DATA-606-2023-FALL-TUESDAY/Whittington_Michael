@@ -18,10 +18,12 @@ In the realm of public health and safety, the ability to predict and subsequentl
 Leveraging the United States Consumer Product Safety Commission's injury dataset, collected by NEISS, this project aims to accurately predict both the diagnosis of a patients injury and the specific body part that was affected. Through the use of machine learning models and data analysis techniques, the goal is to discern patterns and correlations that can lead to reliable predictions concerning the nature and location of injuries based on the given parameters in the dataset.
 
 **Research Questions:**
-- What specific attributes within the NEISS data have the highest correlation with the type of injury diagnosis?
+- How effective are different machine learning models in predicting injury-related outcomes?
+- What is the impact of data quality and quantity on the predictive accuracy of machine learning models in injury data analysis?
 - Are there discernible patterns in the data that indicate a higher likelihood of injuries to specific body parts based on certain factors or circumstances?
+- What role does feature selection and hyperparameter tuning play in enhancing the performance of machine learning models in injury data analysis?
 - How do various consumer products correlate with the type and location of injuries? Are certain products more prone to cause injuries to specific body parts?
-- How accurate are the machine learning models in predicting injury diagnosis and location based on the NEISS data?
+
 
 ## 3. Data 
 
