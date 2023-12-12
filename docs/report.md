@@ -125,7 +125,7 @@ The code for developing the streamlit application can be found [here](https://gi
 
 ![Streamlit-App-BoxPlots](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/58a611ca-7870-4045-9ae6-72cbe19d0358)
 
-Using plotly, I created a correlation matrix to understand the relationship between the target variables and also the potential model features/predictors. This visualization enabled a clearer view of how each feture correlates with one another, providing insights into potential multicollinearity issues and helping to identify the most influential variables for model prediction. See below for an image of the Correlation Matrix:
+Using plotly, I created a correlation matrix to understand the relationship between the target variables and also the potential model features/predictors. This visualization enabled a clearer view of how each feature correlates with one another, providing insights into potential multicollinearity issues and helping to identify the most influential variables for model prediction. See below for an image of the Correlation Matrix:
 
 **NEISS Plotly Correlation Matrix**
 
