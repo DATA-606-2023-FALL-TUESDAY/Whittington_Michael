@@ -167,13 +167,10 @@ Using plotly, I created a correlation matrix to understand the relationship betw
 
 ## 7. Application of the Trained Models
 
-Streamlit will be used to create an application for exploratory data analysis and to create an application that will allow users to interact with the best performing model. 
-
-**Body Part and Diagnosis Prediction Application (NEED MORE INFORMATION AND AN IMAGE)**
-The model interaction application will feature the following functionality:
-  - Users will have a set of option to select from (sex, weight, race, age, and product)
-  - Once user selects their options above, they will be given an output of the body parts most likely injured and diagnosis.
-
+Part of this research project was finding a way to effectively apply the predictive models that were trained against the NEISS dataset. The goal was to create a user-friendly application that will be both a practical tool and bridge the gap between complex models and end-users, such as healthcare professionals, researchers, or injured citzens. The highest performing model was XGBoost, which was used as the machine learning prediction model. The application offers a range of functionalities, providing users with various options to input and obtain tailored results. These functionalities include:
+- **User Input Options** - Users can input specific details related to injury incidents, such as age, sex, race, and the type of product involved. This level of detail allows for a more personalized analysis.
+- **Predictive Analytics** - Based on the input data, the application predicts the most likely body part injured and the type of injury (diagnosis), utilizing the trained XGBoost models.
+- **Accessibility and Ease of Use** - Designed with a focus on user experience, the application facilitates easy navigation and interpretation of results, making it accessible to a broad audience.
 
 ## 8. Conclusion
 
