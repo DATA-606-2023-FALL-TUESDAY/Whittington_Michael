@@ -136,18 +136,18 @@ Using plotly, I created a correlation matrix to understand the relationship betw
 ## 5. Model Training (Need more information added to this section)
 
 - What models you will be using for predictive analytics?
-  - Random Forest
-  - XGBoost Classifier
-  - LightGBM
-  - CatBoost
-  - K-Nearest Neighbors (KNN)
+  - Random Forest (`RandomForestClassifier`)
+  - XGBoost (`XGBClassifier`)
+  - LightGBM (`LGBMClassifier`)
+  - CatBoost (`CatBoostClassifier`)
+  - K-Nearest Neighbors (`KNeighborsClassifier`)
 - How will you train the models?
-  - The train vs test split of 80/20 will be used for the models
+  - The train vs test split of 80/20 will be used for the models.
   - Python packages used for this project include:
      - scikit-learn<sup>2</sup>
      - xgboost<sup>3</sup>
-     - catboost
-     - lightgbm
+     - catboost<sup>4</sup>
+     - lightgbm<sup>5</sup>
   - The development environments used include:
      - Personal laptop
      - Google CoLab
@@ -186,3 +186,7 @@ While quite a bit was accomplished during this project, there are several avenue
 [2] Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
 
 [3] Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 785–794). New York, NY, USA: ACM. https://doi.org/10.1145/2939672.2939785
+
+[4] Anna Veronika Dorogush, Vasily Ershov, Andrey Gulin. Workshop on ML Systems at NIPS 2017
+
+[5] Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., … Liu, T.-Y. (2017). Lightgbm: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems, 30, 3146–3154.
