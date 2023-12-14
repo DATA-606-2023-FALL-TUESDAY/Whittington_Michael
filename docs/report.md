@@ -144,21 +144,21 @@ Using plotly, I created a correlation matrix to understand the relationship betw
 - How will you train the models?
   - The train vs test split of 80/20 will be used for the models
   - Python packages used for this project include:
-     - scikit-learn
-     - xgboost
+     - scikit-learn<sup>2</sup>
+     - xgboost<sup>3</sup>
      - catboost
      - lightgbm
   - The development environments used include:
      - Personal laptop
      - Google CoLab
-- How will you measure and compare the performance of the models (NEED TO EXPAND ON THESE)?
+- How will you measure and compare the performance of the models?
   - Accuracy
   - Precision
   - Recall
   - f1-score
-- Model Improvement Methods (NEED TO EXPAND ON THESE):
-  - Hyperparameter Tuning
-  - Feature Importance
+- Model Improvement Methods:
+  - Hyperparameter Tuning - Part of the scikit-learn library is a hyperparameter tuning technique called `RandomizedSearchCV`. Being that the dataset is large, this was the optimal hyperparameter tuning technique, as it randomly selects combinations of parameters to try. 
+  - Feature Importance - This improvement technique assigns a score to the machine learning models input features based on how useful they are at predicting a target variable. Once these values are assigned, it can help us improve and interpret the models.
 
 ## 6. Model Results - Accuracy
 
@@ -182,3 +182,5 @@ While quite a bit was accomplished during this project, there are several avenue
 
 ## 10. Project Sources
 [1] What is EDA?. Exploratory Data Analysis - NIST. (2012, June 27). https://www.itl.nist.gov/div898/handbook/toolaids/pff/eda.pdf 
+[2] Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
+[3] Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 785–794). New York, NY, USA: ACM. https://doi.org/10.1145/2939672.2939785
