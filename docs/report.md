@@ -182,5 +182,7 @@ While quite a bit was accomplished during this project, there are several avenue
 
 ## 10. Project Sources
 [1] What is EDA?. Exploratory Data Analysis - NIST. (2012, June 27). https://www.itl.nist.gov/div898/handbook/toolaids/pff/eda.pdf 
+
 [2] Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
+
 [3] Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 785–794). New York, NY, USA: ACM. https://doi.org/10.1145/2939672.2939785
