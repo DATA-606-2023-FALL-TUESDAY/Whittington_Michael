@@ -10,7 +10,7 @@
 - <a href="https://www.linkedin.com/in/michael-whittington-6a099137/"><img align="left" src="https://img.shields.io/badge/-LinkedIn: Lets Connect!-1E90FF?logo=linkedin&style=flat" alt="icon | LinkedIn"/></a>  
 - <a href="https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/raw/main/docs/Final_Presentation%20-%20Predictive%20Analysis%20for%20Injury%20Diagnosis%20and%20Localization.pptx"><img src="https://img.shields.io/badge/-PowerPoint Presentation Download-B7472A?logo=microsoftpowerpoint&style=flat" alt="icon | GitHub"/></a>  
 
-- <a href="https://youtube.com"><img align="left" src="https://img.shields.io/badge/-YouTube Presentation-FF0000?logo=youtube&style=flat" alt="icon | YouTube"/></a> 
+- <a href="https://youtu.be/ZiGtqlQvd7U"><img align="left" src="https://img.shields.io/badge/-YouTube Presentation-FF0000?logo=youtube&style=flat" alt="icon | YouTube"/></a> 
     
 ## 2. Background
 
