@@ -1175,20 +1175,23 @@ product_options =[(101,"WASHING MACHINES WITHOUT WRINGERS OR OTHER DRYERS"),
 ]
 
 
-def search_products(searchterm: str):
-    if searchterm:
-        return [name for code, name in product_options if searchterm.lower() in name.lower()]
-    else:
-        return [name for code, name in product_options]
+#def format_product(item):
+    # This function will return the product name for display
+    #return item[1] if item else ""
 
-product_1_selection_name = st_combobox(
-    search_function=search_products,
+#def search_products(searchterm: str):
+    #if searchterm:
+        #return [(code, name) for code, name in product_options if searchterm.lower() in name.lower()]
+    #else:
+        #return product_options
+
+product_1_selection = st.selectbox(  # Use the defined function for formatting
     placeholder="Type to search for products...",
     label="What product caused your injury?",
-    key="product_combobox",
+    options=product_options,
 )
 
-selected_product_code = next((code for code, name in product_options if name == product_1_selection_name), None)
+selected_product_code = product_1_selection[0] if product_1_selection else None
 location = st.selectbox('Where did this injury occur?', options=[(0, 'Unknown'), (1, 'Home'),(2, 'Farm'),(3, 'Apartment'),(4, 'Street'),(5, 'Public'),(6, 'Mobile'),(7, 'Industry'),(8, 'School'),(9, 'Sports')])
 fire = st.radio('Was fire involved?', options=[(0, 'No or Unknown'), (1, 'Yes, Fire Department was Involved'),(2, 'Yes, Fire Department was not Involved'),(3,'Yes, Unknown if Fire Department was Involved')])
 alcohol = st.radio('Was alcohol involved?',options=[(0, 'No or Unknown'), (1, 'Yes')])
