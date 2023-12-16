@@ -156,7 +156,7 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - Precision
   - Recall
   - f1-score
-- Model Improvement Methods:
+- This project used the following model improvement methods:
   - Hyperparameter Tuning - Part of the scikit-learn library is a hyperparameter tuning technique called `RandomizedSearchCV`. Being that the dataset is large, this was the optimal hyperparameter tuning technique, as it randomly selects combinations of parameters to try. 
   - Feature Importance - This improvement technique assigns a score to the machine learning models input features based on how useful they are at predicting a target variable. Once these values are assigned, it can help us improve and interpret the models.
 
