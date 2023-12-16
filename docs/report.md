@@ -111,7 +111,7 @@ In an effort to better understand the dataset and provide an effective way for f
 - Shows information about outliers in the dataset.
 - Allows users to see how the target variable varies with categorical columns.
 
-The code for developing the streamlit application can be found [here](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/blob/main/src/app2.py). Additionally, some of the functionality can be seen in the images below:
+The code for developing the streamlit application can be found [here](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/blob/main/src/data_exploration/eda_app.py). Additionally, some of the functionality can be seen in the images below:
 
 **Project Application Overview**
 
