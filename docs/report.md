@@ -1,6 +1,6 @@
-# Capstone Proposal
+# Capstone Report
  
-## 1. Proposal Title: Predictive Analysis for Injury Diagnosis and Localization
+## 1. Title: Predictive Analysis for Injury Diagnosis and Localization
 
 - **Author Name** - Michael Whittington
 - **Prepared for** - UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
