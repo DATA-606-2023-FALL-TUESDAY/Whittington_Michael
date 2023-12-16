@@ -125,23 +125,23 @@ The code for developing the streamlit application can be found [here](https://gi
 
 ![Streamlit-App-BoxPlots](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/58a611ca-7870-4045-9ae6-72cbe19d0358)
 
-Using plotly, I created a correlation matrix to understand the relationship between the target variables and also the potential model features/predictors. This visualization enabled a clearer view of how each feature correlates with one another, providing insights into potential multicollinearity issues and helping to identify the most influential variables for model prediction. See below for an image of the Correlation Matrix:
 
 **NEISS Plotly Correlation Matrix**
+Using plotly, I created a correlation matrix to understand the relationship between the target variables and also the potential model features/predictors. This visualization enabled a clearer view of how each feature correlates with one another, providing insights into potential multicollinearity issues and helping to identify the most influential variables for model prediction. See below for an image of the Correlation Matrix:
 
 ![Plotly-Correlation-Matrix](https://github.com/DATA-606-2023-FALL-TUESDAY/Whittington_Michael/assets/107943021/c65ba6e7-aa32-4dd4-8ede-304920732832)
 
 
 
-## 5. Model Training (Need more information added to this section)
+## 5. Model Training
 
-- What models you will be using for predictive analytics?
+- The project used the following machine learning models for predictive analytics:
   - Random Forest (`RandomForestClassifier`)
   - XGBoost (`XGBClassifier`)
   - LightGBM (`LGBMClassifier`)
   - CatBoost (`CatBoostClassifier`)
   - K-Nearest Neighbors (`KNeighborsClassifier`)
-- How will you train the models?
+- The models will be trained using the following methods:
   - The train vs test split of 80/20 will be used for the models.
   - Python packages used for this project include:
      - scikit-learn<sup>2</sup>
@@ -151,7 +151,7 @@ Using plotly, I created a correlation matrix to understand the relationship betw
   - The development environments used include:
      - Personal laptop
      - Google CoLab
-- How will you measure and compare the performance of the models?
+- The project performance will be measured using the following:
   - Accuracy
   - Precision
   - Recall
